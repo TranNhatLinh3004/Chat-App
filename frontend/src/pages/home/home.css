@@ -1,0 +1,11 @@
+.section__home {
+  background-image: url("https://images.pexels.com/photos/1938353/pexels-photo-1938353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+}
