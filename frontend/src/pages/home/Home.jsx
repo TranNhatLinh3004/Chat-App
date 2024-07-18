@@ -24,6 +24,26 @@ function Home() {
 
   return (
     <div className="section__home" style={{}}>
+      <div
+        className="star"
+        style={{ top: "10%", left: "20%", animationDelay: "0s" }}
+      ></div>
+      <div
+        className="star"
+        style={{ top: "15%", left: "60%", animationDelay: "1s" }}
+      ></div>
+      <div
+        className="star"
+        style={{ top: "20%", left: "40%", animationDelay: "2s" }}
+      ></div>
+      <div
+        className="star"
+        style={{ top: "25%", left: "80%", animationDelay: "3s" }}
+      ></div>
+      <div
+        className="star"
+        style={{ top: "30%", left: "10%", animationDelay: "4s" }}
+      ></div>
       <Container centerContent mt="20px" borderRadius="10px">
         <Box
           d="flex"
@@ -36,7 +56,7 @@ function Home() {
           borderWidth="1px"
         >
           <Text fontSize="3xl" fontWeight="bold" textAlign="center">
-            ChatLIN
+            Chat-App
           </Text>
         </Box>
 

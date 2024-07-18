@@ -63,7 +63,7 @@ const Register = () => {
       );
       console.log(data);
       toast({
-        title: "Registration Successful",
+        title: "Đăng ký thành công",
         status: "success",
         duration: 3000,
         isClosable: true,

@@ -47,7 +47,7 @@ const Login = () => {
       );
 
       toast({
-        title: "Login Successful",
+        title: "Đăng nhập thành công",
         status: "success",
         duration: 3000,
         isClosable: true,
@@ -106,7 +106,7 @@ const Login = () => {
       >
         Login
       </Button>
-      <Button
+      {/* <Button
         variant="solid"
         colorScheme="green"
         width="100%"
@@ -116,7 +116,7 @@ const Login = () => {
         }}
       >
         Get Guest User Credentials
-      </Button>
+      </Button> */}
     </VStack>
   );
 };
